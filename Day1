@@ -1,0 +1,12 @@
+# variabel biodata
+nama = "Arnyanti.S" 
+umur = 20 
+alamat = "Talummung"
+pekerjaan = "Mahasiswa"
+
+# Menampilkan biodata
+print("Biodata Saya:")
+print("Nama:", nama)
+print("Alamat:", alamat)
+print("Umur:", umur, "tahun")
+print("Pekerjaan:", pekerjaan)
