@@ -1,12 +1,19 @@
-# variabel biodata
-nama = "Arnyanti.S" 
-umur = 20 
-alamat = "Talummung"
-pekerjaan = "Mahasiswa"
 
-# Menampilkan biodata
-print("Biodata Saya:")
-print("Nama:", nama)
-print("Alamat:", alamat)
-print("Umur:", umur, "tahun")
-print("Pekerjaan:", pekerjaan)
+package isc;
+
+public class ISC {
+
+    public static void main(String[] args) {
+        String nama = "Arnyanti.S";
+        int umur = 20;
+        String alamat = "Talummung";
+        String pekerjaan = "Mahasiswa";
+
+        // Menampilkan biodata
+        System.out.println("Biodata Saya:");
+        System.out.println("Nama: " + nama);
+        System.out.println("Alamat: " + alamat);
+        System.out.println("Umur: " + umur + " tahun");
+        System.out.println("Pekerjaan: " + pekerjaan);
+    }
+}
