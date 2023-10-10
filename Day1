@@ -1,8 +1,5 @@
-
-package isc;
-
-public class ISC {
-
+package ISC;
+public class day1 {
     public static void main(String[] args) {
         String nama = "Arnyanti.S";
         int umur = 20;
