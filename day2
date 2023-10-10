@@ -1,0 +1,29 @@
+package ISC;
+import java.util.Scanner;
+public class Day2 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Selamat datang di program input biodata!");
+        
+        System.out.print("Masukkan nama Anda: ");
+        String nama = input.nextLine();
+        
+        System.out.print("Masukkan usia Anda: ");
+        int usia = input.nextInt();
+        input.nextLine(); // Membuang karakter newline
+        
+        System.out.print("Masukkan alamat Anda: ");
+        String alamat = input.nextLine();
+        
+        System.out.print("Masukkan pekerjaan Anda: ");
+        String pekerjaan = input.nextLine();
+        
+        System.out.println("\nBiodata Saya:");
+        System.out.println("Nama: " + nama);
+        System.out.println("Usia: " + usia + " tahun");
+        System.out.println("Alamat: " + alamat);
+        System.out.println("Alamat: " + pekerjaan);
+        
+        input.close();
+    }
+}
