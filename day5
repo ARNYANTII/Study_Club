@@ -1,0 +1,17 @@
+package ISC;
+import java.util.Scanner;
+public class day5 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.print("masukan angka :");
+        int angka = input.nextInt();
+        if (angka % 3 ==0 ){
+            System.out.println("Memenuhi kondisi 1");
+        }else if (angka % 5 ==0 ){
+            System.out.println("memenuhi kondisi 2");
+        }else {
+            System.out.println("tidak memenuhi");
+        }
+    }    
+}
+
