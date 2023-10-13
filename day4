@@ -1,0 +1,14 @@
+package ISC;
+import java.util.Scanner;
+public class day4 {
+static public void main(String[] args){
+    Scanner input = new Scanner (System.in);
+    System.out.print("Masukkan Nilai: ");
+        int nilai = input.nextInt();
+       if (nilai >= 60 ){
+       System.out.println("Anda di nyatakan LULUS Karna nilai yang di peroleh :"+nilai);
+       }else {
+       System.out.println("Anda di nyatakan TIDAK LULUS Karna nilai yang di peroleh :"+nilai);
+    }
+}
+}
