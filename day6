@@ -1,0 +1,16 @@
+package ISC;
+import java.util.Scanner;
+public class day6 {
+    public static void main(String[] args) {
+    Scanner input = new Scanner (System.in);
+        System.out.print("silakan menginput angkah :");
+    int angka = input.nextInt();
+    if (angka > 0) {
+        System.out.println("angkah positif");
+    } else if (angka == 0){
+        System.out.println("angkah 0");
+    } else {
+        System.out.println("angkah negatif");
+    }
+  }
+}
