@@ -1,0 +1,15 @@
+package ISC;
+import java.util.Scanner;
+public class day7 {
+    public static void main(String[] args) {
+    Scanner input = new Scanner (System.in);
+        System.out.print("silakan menginput gaji pokok :");
+    int gaji_pokok = input.nextInt();
+    System.out.print("silakan menginput lama lembur :");
+    int gaji_lembur = 55000;
+    int lama_lembur = input.nextInt();
+    int gaji_sementara = gaji_lembur * lama_lembur; 
+    int gaji_bersih = gaji_pokok + gaji_sementara;
+        System.out.println("gaji yang di terima karyawan setiap bulannya sebesar :"+gaji_bersih);
+    }
+}
