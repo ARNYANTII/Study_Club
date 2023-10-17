@@ -1,12 +1,12 @@
 package ISC;
 import java.util.Scanner;
 public class day8 {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan nilai rentang atas: ");
         int batasAtas = input.nextInt();
-        System.out.println("Bilangan genap rentang 1 sampai " + batasAtas + ":");
-        for (int i = 2; i <= batasAtas; i += 2) {
+        System.out.println("Bilangan ganjil dalam rentang 1 sampai " + batasAtas + ":");
+        for (int i = 1; i <= batasAtas; i += 2) {
             System.out.print(i + " ");
         }
         input.close();
