@@ -1,0 +1,19 @@
+package ISC;
+import java.util.Scanner;
+public class day10 {
+   public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("masukkan nilai : ");
+        int nilai = input.nextInt();
+        int penjumlahan = nilai +2;
+        int pengurangan = nilai -2;
+        int perkalian = nilai *2;
+        int pembagian = nilai /2;
+        int modulo = nilai %2;
+        System.out.println("hasil penjumlahan :"+ penjumlahan);
+        System.out.println("hasil pengurangan :"+pengurangan);
+        System.out.println("hasil perkalian :"+perkalian);
+        System.out.println("hasil pembagian :"+pembagian);
+        System.out.println("hasil modulo :"+modulo);
+    }
+}
