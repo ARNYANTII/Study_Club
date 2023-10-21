@@ -1,0 +1,21 @@
+package ISC;
+import java.util.Scanner;
+public class day13 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.print("masukkan nilai UTS :");
+        int nilai_uts = input.nextInt();
+        System.out.print("masukkan jumlah kehadiran :");
+        int jumlah_kehadiran = input.nextInt();
+        System.out.print("masukkan Nilai UAS :");
+        int nilai_uas = input.nextInt();
+        input.nextLine(); 
+        System.out.print("apakah memenuhi syarat iya atau tidak :");
+        String syarat = input.nextLine();
+    if (nilai_uts >=65 && jumlah_kehadiran >= 3  && nilai_uas >=85 == syarat.equals("iya")){
+        System.out.println("anda memenuhi syarat maka anda di nyatakan LULUS");
+    }else{
+        System.out.println("anda tidak memenuhi syarat maka di nyatakan GAGAL");
+    }
+  }
+}
