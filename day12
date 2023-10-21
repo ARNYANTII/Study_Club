@@ -1,0 +1,17 @@
+package ISC;
+import java.util.Scanner;
+public class day12 {
+     public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.print("masukkan jumlah pesanan :");
+        int jumlah_pemesanan = input.nextInt();
+        double diskon = 0.05;
+        double total_pesanan;
+    if (jumlah_pemesanan >= 100000 ){
+        total_pesanan = jumlah_pemesanan - (jumlah_pemesanan * diskon);
+        System.out.println("mendapat diskon sebesar 5% total yang harus di bayar sebesar :" + total_pesanan);
+    } else {
+        System.out.println("tidak mendapat diskon maka total yang harus di bayar sebesar:" + jumlah_pemesanan);
+    }
+  }
+}
