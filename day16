@@ -1,0 +1,25 @@
+package ISC;
+import java.util.Scanner;
+public class day16 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan tinggi badan : ");
+        double tinggi = input.nextDouble();
+        System.out.print("Masukkan berat badan : ");
+        double berat = input.nextDouble();
+        double indeks = berat / (tinggi * tinggi);
+        System.out.println("Indeks: " + indeks);
+        if (indeks < 16.5) {
+            System.out.println("Kurus");
+        } else if (indeks >= 16.5 && indeks < 25.9) {
+            System.out.println("Normal");
+        } else if (indeks >= 27 && indeks < 30.9) {
+            System.out.println("Kelebihan Berat Badan");
+        } else {
+            System.out.println("Sangat Kelebihan Berat Badan");
+        }
+
+        input.close();
+    }
+}
