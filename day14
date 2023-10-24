@@ -1,0 +1,19 @@
+package ISC;
+import java.util.Scanner;
+public class day14 {
+    public static void main(String[] args) {
+        System.out.println("Operator Perbandingan");
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan nilai1 = ");
+        int nilai1 = input.nextInt();
+        System.out.print("Masukkan nilai2 = ");
+        int nilai2 = input.nextInt();
+
+        System.out.println(nilai1 + ">" + nilai2 + " = " + (nilai1 > nilai2));
+        System.out.println(nilai1 + "<" + nilai2 + " = " + (nilai1 < nilai2));
+        System.out.println(nilai1 + ">=" + nilai2 + " = " + (nilai1 >= nilai2));
+        System.out.println(nilai1 + "<=" + nilai2 + " = " + (nilai1 <= nilai2));
+        System.out.println(nilai1 + "==" + nilai2 + " = " + (nilai1 == nilai2));
+        System.out.println(nilai1 + "!=" + nilai2 + " = " + (nilai1 != nilai2));
+    }
+}
