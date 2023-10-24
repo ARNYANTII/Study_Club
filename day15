@@ -1,0 +1,15 @@
+package ISC;
+import java.util.Scanner;
+public class day15 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan panjang diagonal 1: ");
+        double panjangDiagonal1 = input.nextDouble();
+        System.out.print("Masukkan panjang diagonal 2: ");
+        double panjangDiagonal2 = input.nextDouble();
+        double luasLayangLayang = (panjangDiagonal1 * panjangDiagonal2) / 2;
+        System.out.println("Luas layang-layang: " + luasLayangLayang);
+        input.close();
+    }
+}
+
