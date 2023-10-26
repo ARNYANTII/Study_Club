@@ -1,0 +1,12 @@
+package ISC;
+import java.util.Scanner;
+public class day17 {
+   public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.print("masukkan angka :");
+        int angka = input.nextInt();
+        for ( angka = 1; angka <= 50; angka++) {
+            System.out.print("angka " +angka +",");
+        }
+    }
+}
