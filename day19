@@ -1,0 +1,13 @@
+package ISC;
+public class day19 {
+   public static void main(String[] args) {
+        int[] angka = {3, 7, 11, 9, 5, 4, 8, 12, 6, 10};
+        int max = angka[0]; 
+        for (int item : angka) {
+            if (item > max) {
+                max = item; 
+            }
+        }
+        System.out.println("Nilai maksimum: " + max);
+    }
+}
