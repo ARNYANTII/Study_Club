@@ -1,0 +1,13 @@
+package ISC;
+public class day18 {
+    public static void main(String[] args) {
+        int[] angka = {3, 7, 11, 9, 5, 4, 8, 2, 6, 10};
+        int min = angka[0]; 
+        for (int item : angka) {
+            if (item < min) {
+                min = item; 
+            }
+        }
+        System.out.println("Nilai minimum : " + min);
+    }
+}
