@@ -1,0 +1,10 @@
+package ISC;
+public class day22 {
+    public static void main(String[] args) {
+       int angka = 0;
+    do {
+        System.out.println("perulangan ke-" +angka);
+        angka++;
+    } while(angka<=11);
+  }
+}
