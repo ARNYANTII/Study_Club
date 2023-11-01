@@ -1,0 +1,8 @@
+package ISC;
+public class day25 {
+    public static void main(String[] args) {
+        String Text = "Nama saya : ARNYANTI";
+        int panjangtext = Text.length();
+        System.out.println("panjang text :" +panjangtext);
+    }
+}
