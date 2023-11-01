@@ -1,0 +1,12 @@
+package ISC;
+public class day24 {
+  public static void main(String[] args) {
+        int tinggi = 8;
+        for (int baris = 1; baris <= tinggi; baris++) {
+            for (int kolom = 1; kolom <= baris; kolom++) {
+                System.out.print("1"); 
+            }
+            System.out.println("2");
+        }
+    }
+}
