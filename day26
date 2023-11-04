@@ -1,0 +1,13 @@
+package ISC;
+public class day26 {
+    public static void main(String[] args) {
+     int kelipatan4 = 1;
+     
+    while (kelipatan4 <= 150) {
+    if( kelipatan4 % 4 == 0){
+        System.out.println("kelipanat4 : "+kelipatan4);
+      }
+    kelipatan4++;
+     }
+  }
+}
