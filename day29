@@ -1,0 +1,21 @@
+package ISC;
+import java.util.Scanner;
+public class day29 {
+  public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan gaji pokok karyawan: ");
+        double gajiPokok = scanner.nextDouble();
+        System.out.print("Masukkan jumlah jam kerja: ");
+        int jamKerja = scanner.nextInt();
+        System.out.print("Masukkan tarif lembur per jam: ");
+        double tarifLemburPerJam = scanner.nextDouble();
+        double gaji = gajiPokok;
+
+        if (jamKerja > 5) {
+            int jamLembur = jamKerja - 5;
+            double gajiLembur = jamLembur * tarifLemburPerJam;
+            gaji += gajiLembur;
+        }
+        System.out.println("Gaji Karyawan: " + gaji);
+    }
+}
