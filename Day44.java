@@ -16,4 +16,5 @@ public class day44 {
         System.out.println("jumlah total bilangan Genap adalah : "+totalgenap);
     }
 }
+
    
