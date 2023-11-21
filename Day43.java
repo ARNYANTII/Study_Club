@@ -16,3 +16,4 @@ public class day43 {
         System.out.println("jumlah total bilangan ganjil adalah : "+totalganjil);
     }
 }
+
