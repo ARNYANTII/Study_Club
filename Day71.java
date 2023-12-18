@@ -1,3 +1,4 @@
+
 package ISC;
 import java.util.LinkedList;
 public class Day71 {
